@@ -1,0 +1,96 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Default Elements */
+h1,h2,h3,h4,h5,p{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    letter-spacing: -0.5px
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.margin-col-10 {
+  margin: 10px 10px 0px 10px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.cursor-pointer {
+  cursor: pointer
+}
+
+.danger {
+  color: red;
+}
+
+.border-bottom {
+  border-bottom: 1px #e8e8e8 solid;
+}
+
+.height-500 {
+  height: 500px;
+}
+
+.text-secondary {
+  color: #e8e8e8
+}
+
+.text-label {
+  font-weight: bold;
+  font-size: 0.9em
+}
+
+/* EDIT STYLES ANT */
+.ant-menu-item-selected {
+  background-color: inherit !important
+}
+
+.ant-form label {
+  font-weight: bold;
+  color: #6e6f70;
+  text-transform: uppercase
+}
+
+.ant-modal-header {
+  background-color: #f3f3f5
+}
+
+.ant-modal-title {
+  color: #bdbcc7
+}
+
+.text-bold {
+  font-weight: bold;
+}
